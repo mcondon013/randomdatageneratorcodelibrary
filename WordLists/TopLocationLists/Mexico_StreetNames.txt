@@ -1,0 +1,1000 @@
+﻿Ave Aeropuerto
+Ave Agradable
+Ave Alta
+Ave Anaranjada
+Ave Ancha
+Ave Cardinal
+Ave Casta±a
+Ave Ceniza
+Ave Central
+Ave Colonial
+Ave Comercial
+Ave Conmemorativa
+Ave Constitucion
+Ave Creciente
+Ave Cruzada
+Ave de Agua
+Ave de Atlantico
+Ave de California
+Ave de Colorado
+Ave de Columbia
+Ave de Hoja Perenne
+Ave de Independencia
+Ave de la Baha
+Ave de la Cereza
+Ave de la Colina
+Ave de la Division
+Ave de la Iglesia
+Ave de la Ladera
+Ave de la Langosta
+Ave de la Magnolia
+Ave de la Mision
+Ave de la Morera
+Ave de la Nuez
+Ave de la Orilla
+Ave de la Palma
+Ave de la Perla
+Ave de la Perspectiva
+Ave de la Pradera
+Ave de la Reforma
+Ave de la Revolucion
+Ave de la Salida del Sol
+Ave de la Union
+Ave de la Universidad
+Ave de la Vid
+Ave de Libertad
+Ave de los Reyes
+Ave de Madera
+Ave de Mexico
+Ave de Montana
+Ave de Nevada
+Ave de Pacifico
+Ave de Providencia
+Ave de Verano
+Ave del Abedul
+Ave del Acebo
+Ave del Alamo
+Ave del Arce
+Ave del Bosque
+Ave del Bosquecillo
+Ave del Canal
+Ave del Cedro
+Ave del Centro
+Ave del Comercio
+Ave del Condado
+Ave del Diamante
+Ave del Espinazo
+Ave del Huerto
+Ave del Junipero
+Ave del lago
+Ave del Mercado
+Ave del Mirto
+Ave del Molino
+Ave del nogal Americano
+Ave del Ocaso
+Ave del OcTano
+Ave del Olmo
+Ave del Paradiso
+Ave del Parque
+Ave del Pino
+Ave del Prado
+Ave del Pueblo
+Ave del Puente
+Ave del Rey
+Ave del Roble
+Ave del Sauce
+Ave del Sicamoro
+Ave del Sur
+Ave del Tilo
+Ave del Valle
+Ave Delantera
+Ave Elegante
+Ave Escolar
+Ave Estatal
+Ave Federal
+Ave Ferrocarril
+Ave Gran
+Ave Industrial
+Ave Invernal
+Ave Judicial
+Ave Larga
+Ave Las Americas
+Ave Marginal
+Ave Metropolitana
+Ave Militar
+Ave Monta±esa
+Ave Norte
+Ave Occidental
+Ave Oriental
+Ave Playera
+Ave Primaveral
+Ave Principal
+Ave Puebla
+Ave Real
+Ave Ribere±a
+Ave Rose
+Ave Rural
+Ave Santa Cruz
+Ave Santa Fe
+Ave Santiago
+Ave Universitaria
+Ave Veracruz
+Ave Verde
+Ave Yucatan
+Calle Aeropuerto
+Calle Agradable
+Calle Alta
+Calle Anaranjada
+Calle Ancha
+Calle Cardinal
+Calle Casta±a
+Calle Ceniza
+Calle Central
+Calle Colonial
+Calle Comercial
+Calle Conmemorativa
+Calle Constitucion
+Calle Creciente
+Calle Cruzada
+Calle de Agua
+Calle de Atlantico
+Calle de California
+Calle de Colorado
+Calle de Columbia
+Calle de Hoja Perenne
+Calle de Independencia
+Calle de la Baha
+Calle de la Cereza
+Calle de la Colina
+Calle de la Division
+Calle de la Iglesia
+Calle de la Ladera
+Calle de la Langosta
+Calle de la Magnolia
+Calle de la Mision
+Calle de la Morera
+Calle de la Nuez
+Calle de la Orilla
+Calle de la Palma
+Calle de la Perla
+Calle de la Perspectiva
+Calle de la Pradera
+Calle de la Reforma
+Calle de la Revolucion
+Calle de la Salida del Sol
+Calle de la Union
+Calle de la Universidad
+Calle de la Vid
+Calle de Libertad
+Calle de los Reyes
+Calle de Madera
+Calle de Mexico
+Calle de Montana
+Calle de Nevada
+Calle de Pacifico
+Calle de Providencia
+Calle de Verano
+Calle del Abedul
+Calle del Acebo
+Calle del Alamo
+Calle del Arce
+Calle del Bosque
+Calle del Bosquecillo
+Calle del Canal
+Calle del Cedro
+Calle del Centro
+Calle del Comercio
+Calle del Condado
+Calle del Diamante
+Calle del Espinazo
+Calle del Huerto
+Calle del Junipero
+Calle del lago
+Calle del Mercado
+Calle del Mirto
+Calle del Molino
+Calle del nogal Americano
+Calle del Ocaso
+Calle del OcTano
+Calle del Olmo
+Calle del Paradiso
+Calle del Parque
+Calle del Pino
+Calle del Prado
+Calle del Pueblo
+Calle del Puente
+Calle del Rey
+Calle del Roble
+Calle del Sauce
+Calle del Sicamoro
+Calle del Sur
+Calle del Tilo
+Calle del Valle
+Calle Delantera
+Calle Elegante
+Calle Escolar
+Calle Estatal
+Calle Federal
+Calle Ferrocarril
+Calle Gran
+Calle Industrial
+Calle Invernal
+Calle Judicial
+Calle Larga
+Calle Las Americas
+Calle Marginal
+Calle Metropolitana
+Calle Militar
+Calle Monta±esa
+Calle Norte
+Calle Occidental
+Calle Oriental
+Calle Playera
+Calle Primaveral
+Calle Principal
+Calle Puebla
+Calle Real
+Calle Ribere±a
+Calle Rose
+Calle Rural
+Calle Santa Cruz
+Calle Santa Fe
+Calle Santiago
+Calle Universitaria
+Calle Veracruz
+Calle Verde
+Calle Yucatan
+Calle Acacia
+Calle Acosta
+Calle Agueybana
+Calle Aleli
+Calle Almendro
+Calle Amapola
+Calle Amatista
+Calle Antonini
+Calle Argentina
+Calle Arteaga
+Calle Arterial Hostos
+Calle Aurora
+Calle Azucena
+Calle Baldorioty
+Calle Barbosa
+Calle Barcelo
+Calle Begonia
+Calle Benitez
+Calle Betances
+Calle Borinquen
+Calle Bosque
+Calle Brazil
+Calle Bucare
+Calle Buena Vis
+Calle Buenos Aires
+Calle Calero
+Calle Campeche
+Calle Candina
+Calle Caoba
+Calle Caparra
+Calle Caribe
+Calle Cedro
+Calle Ceiba
+Calle Celis Aguilera
+Calle Central
+Calle Cervantes
+Calle Chile
+Calle Clavel
+Calle Clemente
+Calle Colombia
+Calle Colon
+Calle Comercio
+Calle Concordia
+Calle Condado
+Calle Conde
+Calle Coral
+Calle Corazon
+Calle Corchado
+Calle Costa Rica
+Calle Cristobal Colon
+Calle Cucharillas
+Calle Cuesta Los Judios
+Calle Cuevillas
+Calle Dalia
+Calle De Diego
+Calle De La Cruz
+Calle De La Fortaleza
+Calle De La Luna
+Calle De San Francisco
+Calle Degetau
+Calle Del Carmen
+Calle Del Parque
+Calle Del Sol
+Calle Delicias
+Calle Diamante
+Calle Diez De Andino
+Calle Domenech
+Calle El Monte
+Calle Esmeralda
+Calle Espana
+Calle Esperanza
+Calle Estado
+Calle Estrella
+Calle Fernandez
+Calle Ferrocarril
+Calle Flamboyan
+Calle Fortaleza
+Calle Francia
+Calle Gardenia
+Calle Gen Valero
+Calle Georgetti
+Calle Gilberto
+Calle Girasol
+Calle Gonzalez
+Calle Guayama
+Calle Hernandez
+Calle Honduras
+Calle Hortensia
+Calle Hostos
+Calle Isla Verde
+Calle Italia
+Calle Jazmin
+Calle Jobos
+Calle Kings Ct
+Calle La Paz
+Calle Laguna
+Calle Las Americas
+Calle Las Flores
+Calle Las Marias
+Calle Las Palmas
+Calle Laurel
+Calle Leon
+Calle Lirio
+Calle Llorens Torres
+Calle Loiza
+Calle Los Pinos
+Calle Luchetti
+Calle Luna
+Calle Madrid
+Calle Magdalena
+Calle Magnolia
+Calle Margarita
+Calle Marginal
+Calle Marina
+Calle Marti
+Calle Matienzo Cintron
+Calle Mayaguez
+Calle Mcleary
+Calle Mejico
+Calle Mendez
+Calle Mendez Vigo
+Calle Militar
+Calle Miramar
+Calle Miranda
+Calle Modesta
+Calle Monserrate
+Calle Monte Carlo
+Calle Montemar
+Calle Munoz Rivera
+Calle Noel Estrada
+Calle Nueva
+Calle Orquidea
+Calle Otero
+Calle Palestina
+Calle Parana
+Calle Parque
+Calle Pinero
+Calle Pomarrosa
+Calle Ponce De Leon
+Calle Principal
+Calle Principe
+Calle Progreso
+Calle Regina
+Calle Rexach
+Calle Rivera
+Calle Roble
+Calle Robles
+Calle Rosa
+Calle Rosario
+Calle Rotarios
+Calle Rubi
+Calle Ruisenor
+Calle Ruiz Belvis
+Calle Salud
+Calle San Agustin
+Calle San Antonio
+Calle San Ignacio
+Calle San Jorge
+Calle San Jose
+Calle San Juan
+Calle San Justo
+Calle San Miguel
+Calle San Patricio
+Calle San Rafael
+Calle Santa Cruz
+Calle Santa Rosa
+Calle Santiago Iglesias
+Calle Sicardo
+Calle Sicilia
+Calle Sol
+Calle Tapia
+Calle Tartak
+Calle Tenerife
+Calle Tetuan
+Calle Topacio
+Calle Torres
+Calle Trinitaria
+Calle Tulipan
+Calle Turquesa
+Calle Un
+Calle Universidad
+Calle Uruguay
+Calle Venus
+Calle Veve
+Calle Victoria
+Calle Villa
+Calle Villamil
+Calle Violeta
+Calle Vizcarrondo
+Calle Zafiro
+Ave del Abril
+Ave del Agosto
+Ave del Diciembre
+Ave del Enero
+Ave del Febrero
+Ave del Julio
+Ave del Junio
+Ave del Marzo
+Ave del Mayo
+Ave del Noviembre
+Ave del Octubre
+Ave del Septiembre
+Calle del Abril
+Calle del Agosto
+Calle del Diciembre
+Calle del Enero
+Calle del Febrero
+Calle del Julio
+Calle del Junio
+Calle del Marzo
+Calle del Mayo
+Calle del Noviembre
+Calle del Octubre
+Calle del Septiembre
+Plaza Aeropuerto
+Plaza Agradable
+Plaza Alta
+Plaza Anaranjada
+Plaza Ancha
+Plaza Cardinal
+Plaza Casta±a
+Plaza Ceniza
+Plaza Central
+Plaza Colonial
+Plaza Comercial
+Plaza Conmemorativa
+Plaza Constitucion
+Plaza Creciente
+Plaza Cruzada
+Plaza de Agua
+Plaza de Atlantico
+Plaza de California
+Plaza de Colorado
+Plaza de Columbia
+Plaza de Hoja Perenne
+Plaza de Independencia
+Plaza de la Baha
+Plaza de la Cereza
+Plaza de la Colina
+Plaza de la Division
+Plaza de la Iglesia
+Plaza de la Ladera
+Plaza de la Langosta
+Plaza de la Magnolia
+Plaza de la Mision
+Plaza de la Morera
+Plaza de la Nuez
+Plaza de la Orilla
+Plaza de la Palma
+Plaza de la Perla
+Plaza de la Perspectiva
+Plaza de la Pradera
+Plaza de la Reforma
+Plaza de la Revolucion
+Plaza de la Salida del Sol
+Plaza de la Union
+Plaza de la Universidad
+Plaza de la Vid
+Plaza de Libertad
+Plaza de los Reyes
+Plaza de Madera
+Plaza de Mexico
+Plaza de Montana
+Plaza de Nevada
+Plaza de Pacifico
+Plaza de Providencia
+Plaza de Verano
+Plaza del Abedul
+Plaza del Abril
+Plaza del Acebo
+Plaza del Agosto
+Plaza del Alamo
+Plaza del Arce
+Plaza del Bosque
+Plaza del Bosquecillo
+Plaza del Canal
+Plaza del Cedro
+Plaza del Centro
+Plaza del Comercio
+Plaza del Condado
+Plaza del Diamante
+Plaza del Diciembre
+Plaza del Enero
+Plaza del Espinazo
+Plaza del Febrero
+Plaza del Huerto
+Plaza del Julio
+Plaza del Junio
+Plaza del Junipero
+Plaza del lago
+Plaza del Marzo
+Plaza del Mayo
+Plaza del Mercado
+Plaza del Mirto
+Plaza del Molino
+Plaza del nogal Americano
+Plaza del Noviembre
+Plaza del Ocaso
+Plaza del OcTano
+Plaza del Octubre
+Plaza del Olmo
+Plaza del Paradiso
+Plaza del Parque
+Plaza del Pino
+Plaza del Prado
+Plaza del Pueblo
+Plaza del Puente
+Plaza del Rey
+Plaza del Roble
+Plaza del Sauce
+Plaza del Septiembre
+Plaza del Sicamoro
+Plaza del Sur
+Plaza del Tilo
+Plaza del Valle
+Plaza Delantera
+Plaza Elegante
+Plaza Escolar
+Plaza Estatal
+Plaza Federal
+Plaza Ferrocarril
+Plaza Gran
+Plaza Industrial
+Plaza Invernal
+Plaza Judicial
+Plaza Larga
+Plaza Las Americas
+Plaza Marginal
+Plaza Metropolitana
+Plaza Militar
+Plaza Monta±esa
+Plaza Norte
+Plaza Occidental
+Plaza Oriental
+Plaza Playera
+Plaza Primaveral
+Plaza Principal
+Plaza Puebla
+Plaza Real
+Plaza Ribere±a
+Plaza Rose
+Plaza Rural
+Plaza Santa Cruz
+Plaza Santa Fe
+Plaza Santiago
+Plaza Universitaria
+Plaza Veracruz
+Plaza Verde
+Plaza Yucatan
+Ave A
+Ave Acacia
+Ave Acosta
+Ave Agueybana
+Ave Aleli
+Ave Almendro
+Ave Amapola
+Ave Amatista
+Ave Antonini
+Ave Argentina
+Ave Arteaga
+Ave Arterial Hostos
+Ave Aurora
+Ave Azucena
+Ave B
+Ave Baldorioty
+Ave Barbosa
+Ave Barcelo
+Ave Begonia
+Ave Benitez
+Ave Betances
+Ave Borinquen
+Ave Bosque
+Ave Brazil
+Ave Bucare
+Ave Buena Vis
+Ave Buenos Aires
+Ave Calero
+Ave Campeche
+Ave Candina
+Ave Caoba
+Ave Caparra
+Ave Caribe
+Ave Cedro
+Ave Ceiba
+Ave Celis Aguilera
+Ave Central
+Ave Cervantes
+Ave Chile
+Ave Clavel
+Ave Clemente
+Ave Colombia
+Ave Colon
+Ave Comercio
+Ave Concordia
+Ave Condado
+Ave Conde
+Ave Coral
+Ave Corazon
+Ave Corchado
+Ave Costa Rica
+Ave Cristobal Colon
+Ave Cucharillas
+Ave Cuesta Los Judios
+Ave Cuevillas
+Ave D
+Ave Dalia
+Ave De Diego
+Ave De La Cruz
+Ave De La Fortaleza
+Ave De La Luna
+Ave De San Francisco
+Ave Degetau
+Ave Del Carmen
+Ave Del Parque
+Ave Del Sol
+Ave Delicias
+Ave Diamante
+Ave Diez De Andino
+Ave Domenech
+Ave E
+Ave El Monte
+Ave Esmeralda
+Ave Espana
+Ave Esperanza
+Ave Estado
+Ave Estrella
+Ave F
+Ave Fernandez
+Ave Ferrocarril
+Ave Flamboyan
+Ave Fortaleza
+Ave Francia
+Ave G
+Ave Gardenia
+Ave Gen Valero
+Ave Georgetti
+Ave Gilberto
+Ave Girasol
+Ave Gonzalez
+Ave Guayama
+Ave H
+Ave Hernandez
+Ave Honduras
+Ave Hortensia
+Ave Hostos
+Ave I
+Ave Isla Verde
+Ave Italia
+Ave J
+Ave Jazmin
+Ave Jobos
+Ave K
+Ave Kings Ct
+Ave L
+Ave La Paz
+Ave Laguna
+Ave Las Americas
+Ave Las Flores
+Ave Las Marias
+Ave Las Palmas
+Ave Laurel
+Ave Leon
+Ave Lirio
+Ave Llorens Torres
+Ave Loiza
+Ave Los Pinos
+Ave Luchetti
+Ave Luna
+Ave M
+Ave Madrid
+Ave Magdalena
+Ave Magnolia
+Ave Margarita
+Ave Marginal
+Ave Marina
+Ave Marti
+Ave Matienzo Cintron
+Ave Mayaguez
+Ave Mcleary
+Ave Mejico
+Ave Mendez
+Ave Mendez Vigo
+Ave Militar
+Ave Miramar
+Ave Miranda
+Ave Modesta
+Ave Monserrate
+Ave Monte Carlo
+Ave Montemar
+Ave Munoz Rivera
+Ave N
+Ave Noel Estrada
+Ave Nueva
+Ave O
+Ave Orquidea
+Ave Otero
+Ave P
+Ave Palestina
+Ave Parana
+Ave Parque
+Ave Pinero
+Ave Pomarrosa
+Ave Ponce De Leon
+Ave Principal
+Ave Principe
+Ave Progreso
+Ave Q
+Ave R
+Ave Regina
+Ave Rexach
+Ave Rivera
+Ave Roble
+Ave Robles
+Ave Rosa
+Ave Rosario
+Ave Rotarios
+Ave Rubi
+Ave Ruisenor
+Ave Ruiz Belvis
+Ave S
+Ave Salud
+Ave San Agustin
+Ave San Antonio
+Ave San Ignacio
+Ave San Jorge
+Ave San Jose
+Ave San Juan
+Ave San Justo
+Ave San Miguel
+Ave San Patricio
+Ave San Rafael
+Ave Santa Cruz
+Ave Santa Rosa
+Ave Santiago Iglesias
+Ave Sicardo
+Ave Sicilia
+Ave Sol
+Ave T
+Ave Tapia
+Ave Tartak
+Ave Tenerife
+Ave Tetuan
+Ave Topacio
+Ave Torres
+Ave Trinitaria
+Ave Tulipan
+Ave Turquesa
+Ave U
+Ave Un
+Ave Universidad
+Ave Uruguay
+Ave V
+Ave Venus
+Ave Veve
+Ave Victoria
+Ave Villa
+Ave Villamil
+Ave Violeta
+Ave Vizcarrondo
+Ave W
+Ave X
+Ave Y
+Ave Z
+Ave Zafiro
+Calle A
+Calle B
+Calle D
+Calle E
+Calle F
+Calle G
+Calle H
+Calle I
+Calle J
+Calle K
+Calle L
+Calle M
+Calle N
+Calle O
+Calle P
+Calle Q
+Calle R
+Calle S
+Calle T
+Calle U
+Calle V
+Calle W
+Calle X
+Calle Y
+Calle Z
+Ave Aguascalientes
+Ave Baja California
+Ave Bogota
+Ave Buenos Aires
+Ave Campeche
+Ave Caracas
+Ave Chiapas
+Ave Chihuahua
+Ave Coahuila de Zaragoza
+Ave Colima
+Ave de Argentina
+Ave de Bolivia
+Ave de Brazil
+Ave de Chile
+Ave de Columbia
+Ave de Cuba
+Ave de Ecuador
+Ave de El Salvador
+Ave de Honduras
+Ave de Nicaragua
+Ave de Panama
+Ave de Peru
+Ave de Venezuela
+Ave Durango
+Ave Guanajuato
+Ave Guerrero
+Ave Hidalgo
+Ave Jalisco
+Ave Lima
+Ave Michoacan de Ocampo
+Ave Morelos
+Ave Nayarit
+Ave Nuevo Leon
+Ave Oaxaca
+Ave Queretaro Arteaga
+Ave Quintana Roo
+Ave Rio de Janeiro
+Ave San Luis Potosi
+Ave Sao Paolo
+Ave Sinaloa
+Ave Sonora
+Ave Tabasco
+Ave Tamaulipas
+Ave Tlaxcala
+Ave Zacatecas
+Calle Aguascalientes
+Calle Baja California
+Calle Bogota
+Calle Buenos Aires
+Calle Campeche
+Calle Caracas
+Calle Chiapas
+Calle Chihuahua
+Calle Coahuila de Zaragoza
+Calle Colima
+Calle de Argentina
+Calle de Bolivia
+Calle de Brazil
+Calle de Chile
+Calle de Columbia
+Calle de Cuba
+Calle de Ecuador
+Calle de El Salvador
+Calle de Honduras
+Calle de Nicaragua
+Calle de Panama
+Calle de Peru
+Calle de Venezuela
+Calle Durango
+Calle Guanajuato
+Calle Guerrero
+Calle Hidalgo
+Calle Jalisco
+Calle Lima
+Calle Michoacan de Ocampo
+Calle Morelos
+Calle Nayarit
+Calle Nuevo Leon
+Calle Oaxaca
+Calle Queretaro Arteaga
+Calle Quintana Roo
+Calle Rio de Janeiro
+Calle San Luis Potosi
+Calle Sao Paolo
+Calle Sinaloa
+Calle Sonora
+Calle Tabasco
+Calle Tamaulipas
+Calle Tlaxcala
+Calle Zacatecas
+Plaza Aguascalientes
+Plaza Baja California
+Plaza Bogota
+Plaza Buenos Aires
+Plaza Campeche
+Plaza Caracas
+Plaza Chiapas
+Plaza Chihuahua
+Plaza Coahuila de Zaragoza
+Plaza Colima
+Plaza de Argentina
+Plaza de Bolivia
+Plaza de Brazil
+Plaza de Chile
+Plaza de Columbia
+Plaza de Cuba
+Plaza de Ecuador
+Plaza de El Salvador
+Plaza de Honduras
+Plaza de Nicaragua
+Plaza de Panama
+Plaza de Peru
+Plaza de Venezuela
+Plaza Durango
+Plaza Guanajuato
+Plaza Guerrero
+Plaza Hidalgo
+Plaza Jalisco
+Plaza Lima
+Plaza Michoacan de Ocampo
+Plaza Morelos
+Plaza Nayarit
+Plaza Nuevo Leon
+Plaza Oaxaca
+Plaza Queretaro Arteaga
+Plaza Quintana Roo
+Plaza Rio de Janeiro
+Plaza San Luis Potosi
+Plaza Sao Paolo
+Plaza Sinaloa
+Plaza Sonora
+Plaza Tabasco
+Plaza Tamaulipas
+Plaza Tlaxcala
+Plaza Zacatecas
+Ave Cuadragisima
+Ave Cuarta
+Ave Decima
+Ave Decimoctava
+Ave Decimocuarta
+Ave Decimonona
+Ave Decimoquinta
+Ave Decimosexta
+Ave Decimosiptima
+Ave Decimotercia
+Ave Duodecima
+Ave Nonagisimo
+Ave Novena
+Ave Octava
+Ave Octogisima
+Ave Primero
+Ave Quincuagisima
+Ave Quintamente
+Ave Segunda
+Ave Septima
+Ave Septuagisima
+Ave Sexagisima
+Ave Sexta
+Ave Tercera
+Ave Trigisima
+Ave Una Centisima
+Ave Undecima
+Ave Veinte-cuarta
+Ave Veinte-novena
+Ave Veinte-quintamente

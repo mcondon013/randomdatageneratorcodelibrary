@@ -1,0 +1,1000 @@
+﻿Main St
+Yonge St
+Bathurst St
+W Bloor St
+E Sheppard Ave
+W Broadway
+E Lawrence Ave
+W 12th Ave
+Kingston Rd
+W Dundas St
+Portage Ave
+Dufferin St
+W 10th Ave
+Haro St
+W 13th Ave
+Jane St
+Danforth Ave
+Granville St
+Barclay St
+W 14th Ave
+Weston Rd
+Queen St
+W 7th Ave
+Nelson St
+Victoria Park Ave
+W 8th Ave
+Avenue Rd
+King St
+W 11th Ave
+Thorncliffe Park Dr
+E Eglinton Ave
+Bay St
+Oak St
+Don Mills Rd
+W 2nd Ave
+Wilson Ave
+Church St
+Kennedy Rd
+Harwood St
+East Dr
+Comox St
+Islington Ave
+W 6th Ave
+Keele St
+W Eglinton Ave
+W 4th Ave
+W 15th Ave
+Burnaby St
+W King St
+Pendrell St
+W 3rd Ave
+E Queen St
+W Queen St
+Kingsway
+W Pender St
+Brunswick St
+W St Clair Ave
+Cambie St
+College St
+W Hastings St
+W Lawrence Ave
+E Broadway
+East Ave
+Principale
+Oxford St
+Bayview Ave
+Spadina Ave
+W 1st Ave
+Prince St
+St George St
+George St
+E Pender St
+Carlton St
+Victoria Dr
+E 6th Ave
+E 8th Ave
+W Georgia St
+Beach Ave
+W 16th Ave
+W 5th Ave
+Fraser St
+Broadview Ave
+Dixon Rd
+E Hastings St
+W Finch Ave
+Water St
+Windsor St
+University Ave
+Broadway
+Jervis St
+E Eglinton
+Midland Ave
+Victoria Rd
+E 7th Ave
+Birchmount Rd
+Maple St
+Robson St
+Ontario St
+Kipling Ave
+W 41st Ave
+Jefferson Ave
+Corydon Ave
+Burrard St
+Alexander St
+Grant Ave
+Markham Rd
+Mountain Rd
+Charles St
+Wellington Csnt
+Roslyn Rd
+Spring Garden Rd
+Lansdowne Ave
+Ellesmere Rd
+E 5th Ave
+Henderson Hwy
+West Ave
+Howe St
+Davenport Rd
+W Dundas
+W Sheppard Ave
+Robie St
+Bridletowne Crcl
+York Ave
+Charlotte St
+Young St
+Burrows Ave
+W Eglinton
+W Adelaide St
+W Bloor
+Sherbourne St
+Sherbrook St
+Riverside Dr
+E 3rd Ave
+Ash St
+Heather St
+Hargrave St
+Argyle St
+Cardero St
+E Georgia St
+E Gerrard St
+Cambridge St
+Windmill Rd
+Balsam St
+Elm St
+Mill Rd
+W Lake Shore Blvd
+E 49th Ave
+Warden Ave
+Erskine Ave
+Kenaston Blvd
+Selkirk Ave
+Lanark St
+High St
+Adanac St
+Arlington St
+Albion Rd
+Willow St
+Cosburn Ave
+Nanaimo St
+Pape Ave
+Evans Ave
+Kennedy St
+W Richmond St
+Tower Rd
+Victoria St
+York St
+Bute St
+E 12th Ave
+Herring Cove Rd
+Barrington St
+Rupert St
+Garry St
+Renfrew St
+W King Edward Ave
+Broadway Ave
+Logan Ave
+Osborne St
+E 2nd Ave
+River Rd
+Vaughan Rd
+E 13th Ave
+Smith St
+Hornby St
+Scarlett Rd
+Spruce St
+SW Marine Dr
+Con Bay Hwy
+Douglas Ave
+Walmer Rd
+Stradbrook Ave
+W 19th Ave
+E 14th Ave
+Atlantic Ave
+Danforth Rd
+Regent St
+Euclid Ave
+Notre Dame Ave
+Duke St
+O'connor Dr
+Bamburgh Crcl
+E 11th Ave
+The West Mall
+Broughton St
+River Ave
+E 28th Ave
+Talbot Ave
+Davie St
+Dovercourt Rd
+The Queens Way
+Cornwall Ave
+E 22nd Ave
+W 18th Ave
+E 15th Ave
+York Mills Rd
+Grant St
+William St
+Knight St
+Donald St
+Gottingen St
+Alberni St
+Pacific Ave
+Parker St
+E King St
+E 4th Ave
+Hamilton Ave
+W Finch
+W 20th Ave
+Pacific St
+Leila Ave
+Davisville Ave
+Woodbine Ave
+Park St
+Brimley Rd
+Cocagne
+Church
+Yew St
+Victoria
+E 10th Ave
+Connaught Ave
+Princess St
+Furby St
+Campbell Ave
+North St
+Portland St
+Osler St
+Quebec St
+Cartier St
+Morningside Ave
+E 54th Ave
+Manitoba Ave
+Main Ave
+E 1st Ave
+Leslie St
+Bedford Hwy
+Magnus Ave
+E 45th Ave
+Pritchard Ave
+Spadina Rd
+Maple Ave
+Elizabeth Ave
+Shaw St
+Vine St
+Balliol St
+John St
+Hudson St
+La Rose Ave
+Roselawn Ave
+Mcmillan Ave
+W 21st Ave
+E St Clair Ave
+W 22nd Ave
+Dawes Rd
+E Gerrard
+Edmonton St
+Inkster Blvd
+High Park Ave
+Waterloo St
+E 16th Ave
+Elmwood Dr
+Munroe Ave
+W Steeles
+E 27th Ave
+Beatrice St
+Powell St
+Ossington Ave
+Venables St
+Dunbar St
+E 41st Ave
+Graveley St
+Arbutus St
+N Nassau St
+E 58th Ave
+E 19th Ave
+E Queen
+Dundas St
+South St
+Caledonia Rd
+Carlaw Ave
+Mcphillips St
+Fleming St
+Sunset Dr
+Taylor Ave
+Tyndall Ave
+Mountain Ave
+Linden Ave
+Chestnut St
+Loch Lomond Rd
+E 23rd Ave
+Isabella St
+Lipton St
+W 39th Ave
+Aberdeen Ave
+Cypress St
+Toronto St
+E Wellesley
+Balmoral St
+Polson Ave
+E 21st Ave
+Jameson Ave
+Greenwood Ave
+Alexander Ave
+Burnhamthorpe Rd
+Consumers Rd
+Martin Grove Rd
+Sinclair St
+Triumph St
+W 17th Ave
+W Steeles Ave
+Keefer St
+The West Way
+Massey Sq
+Bannerman Ave
+Bayers Rd
+Cathedral Ave
+W 37th Ave
+W 23rd Ave
+Antibes Dr
+Dumfries St
+Quebec Ave
+St Clarens Ave
+Franklin St
+Roehampton Ave
+Kitchener St
+Wellington Ave
+Selkirk St
+E 24th Ave
+Pembina Hwy
+St Mary Ave
+Union St
+Marlee Ave
+Niagara St
+Cumberland Ave
+E 48th Ave
+Topsail Rd
+Nicola St
+Redwood Ave
+Sargent Ave
+Assiniboine Ave
+E 20th Ave
+Robertville
+Champlain St
+Emmett Ave
+Quinpool Rd
+Alton Towers Crcl
+Albert St
+Willett St
+Sherburn St
+W 71st Ave
+E 26th Ave
+Blackmarsh Rd
+Ellerdale St
+E 29th Ave
+Coxwell Ave
+Roncesvalles Ave
+Campbell St
+W 38th Ave
+Commercial Dr
+Olivet St
+E 46th Ave
+Mabelle Ave
+Boyd Ave
+Inverness St
+Edward St
+W 33rd Ave
+E 43rd Ave
+E Bloor St
+Allardville
+Jarvis St
+Petit Rocher
+E 47th Ave
+Adsum Dr
+Dupont St
+Forest Rd
+Montcalm St
+W 70th Ave
+Salisbury
+Hamilton St
+Clifton St
+St Peters Rd
+E St Clair
+Blenheim St
+Merton St
+Wellington St
+E 51st Ave
+Ridelle Ave
+W 45th Ave
+E 56th Ave
+Indian Rd
+Homer St
+Oakwood Ave
+Marine Dr
+Morris St
+Henry St
+Markham St
+Glencairn Ave
+Pandora St
+James St
+O Boulevard St Pierre
+Rosedale Ave
+West St
+Bleecker St
+Laurel St
+Nairn Ave
+E 18th Ave
+Evergreen Pl
+Highfield Park Dr
+Seymour St
+Ellice Ave
+Parkway Forest Dr
+Clinton St
+Driftwood Ave
+Notre Dame
+Freshwater Rd
+Donlands Ave
+Beverley St
+Hollis St
+Moberley Rd
+SE Marine Dr
+Harbour Sq
+Manning Ave
+Strathcona St
+Perth Ave
+Angus Dr
+E 17th Ave
+Waverley Rd
+Macdonald St
+Mcnicoll Ave
+Napier St
+Millwood Rd
+E 44th Ave
+Beresford Ave
+Pennywell Rd
+Turner St
+E Cordova St
+W 40th Ave
+Bidwell St
+Valley Rd
+W Queens Quay
+Gilford St
+E 50th Ave
+Ross St
+E 57th Ave
+E Finch
+Fraser Ave
+Kent St
+Birch St
+Mccowan Rd
+Southport St
+Woodland Dr
+Lamey's Mill Rd
+Cole Harbour Rd
+Alfred Ave
+Gladstone Ave
+Rexdale Blvd
+Cameron St
+Crescent Pl
+St George Blvd
+Langside St
+Larch St
+Mcgregor St
+Crawford St
+Frances St
+Brunswick Ave
+W 35th Ave
+Briar Hill Ave
+E 61st Ave
+Portugal Cove Rd
+Yorkville Ave
+W 57th Ave
+E 38th Ave
+Mainland St
+Torbay Rd
+E 53rd Ave
+Tisdall St
+Kedgwick
+Milner Ave
+Lascelles Blvd
+W 26th Ave
+Inglis St
+Beaverbrook St
+Watson St
+Setter St
+W 42nd Ave
+Borebank St
+Mulvey Ave
+Chesswood Dr
+Alness St
+Castlefield Ave
+Fremlin St
+Jackson Ave
+Maryland St
+Melrose Ave
+E 62nd Ave
+Alma St
+Simcoe St
+Columbia St
+W 32nd Ave
+Aberdeen St
+E Finch Ave
+Gamble Ave
+Manawagonish Rd
+Newfoundland Dr
+Windermere Ave
+Elgin Ave
+Elliott St
+Richards St
+Victoria Rue
+Cumberland St
+Montgomery St
+W 49th Ave
+Eton St
+Palmerston Ave
+Parkside Dr
+E 37th Ave
+W 29th Ave
+William Ave
+Albro Lake Rd
+Dorchester Ave
+Lauder Ave
+Mcadam Ave
+Agricola St
+E 33rd Ave
+E 36th Ave
+Ingersoll St
+Queens Rd
+Westwood Dr
+College Ave
+Warsaw Ave
+Canada Dr
+Churchill St
+Reid St
+Trafalgar St
+Winona Dr
+Bannatyne Ave
+Glen Rd
+Mount Pleasant Rd
+Widdicombe Hill Blvd
+Blake St
+Coverdale Rd
+E 55th Ave
+Ashburn St
+Alderney Dr
+Brock Ave
+Sherbrooke St
+Gladstone St
+Joyce St
+Pine St
+Shaughnessy St
+Torresdale Ave
+W 36th Ave
+Delaware Ave
+Ellerslie Ave
+Markland Dr
+W 43rd Ave
+W 44th Ave
+Elizabeth Dr
+Willow Ave
+Bay Bulls Rd
+E 39th Ave
+Alexandra St
+Kerr St
+Station Rd
+E 59th Ave
+E 63rd Ave
+Valour Rd
+Avdes Pionniers
+Dover St
+Mandalay Dr
+Parliament St
+Huron St
+Slocan St
+St Joseph St
+Coburg Rd
+Cummer Ave
+Spence St
+Thurlow St
+Bayview
+St Catherines St
+E 60th Ave
+Russell St
+Strathmore Blvd
+Trudelle St
+Watt St
+Ruddington Dr
+W 24th Ave
+Machray Ave
+N Garfield St
+Stafford St
+Keewatin St
+W King
+Berkeley St
+Oakmount Rd
+Culloden St
+Highland Ave
+Lindsay St
+Richview Rd
+Webb Pl
+Cambridge Ave
+E 52nd Ave
+Tamarack Dr
+St Patrick St
+Beatty St
+Glenlake Ave
+Robichaud
+Burnell St
+New Germany
+Northcliffe Blvd
+Runnymede Rd
+Duplex Ave
+Mcgill St
+Sackville Dr
+Salisbury Rd
+Beech St
+Belmont St
+St-Francois Rue
+Chalkfarm Dr
+Waverley St
+Beaverbank Rd
+Clark Dr
+Dufferin Ave
+South Dr
+St Louis De Kent
+W 34th Ave
+E 64th Ave
+Walnut St
+Jessie Ave
+Raglan Ave
+Rexton
+Silverstone Dr
+4 Winds Dr
+Brock St
+Clarendon St
+E 25th Ave
+Cornwallis St
+Jubilee Rd
+Kimberly Ave
+Augusta Ave
+Borden St
+Homewood Ave
+Richmond St
+Rusholme Rd
+Belvedere Ave
+Cassandra Blvd
+Duncan St
+Smythe St
+Sunrise Ave
+Queenston St
+Sandhurst Crcl
+Banning St
+Downing St
+Primrose St
+Yukon St
+Chester St
+Morley Ave
+W 28th Ave
+Atlantic St
+Minto St
+Alberta St
+Huntingdale Blvd
+Poplar Dr
+Simpson Ave
+Skymark Dr
+St Charles
+W 27th Ave
+Pictou Rd
+Glenholme Ave
+Progress Ave
+Shediac Rd
+Shuter St
+W St Clair
+W 47th Ave
+Grosvenor Ave
+Highland Dr
+Mcdermot Ave
+Wolseley Ave
+Bay Mills Blvd
+Colony St
+St Dennis Dr
+Pointe Verte
+Canada Chem
+Main Rd
+Stanley St
+Powers St
+Waverley Ave
+Wright Ave
+Chilco St
+Forest Hill Rd
+Green St
+Purcell's Cove Rd
+St Paul
+Gower St
+Grandravine Dr
+Maitland St
+Pharmacy Ave
+King George Hwy
+E 40th Ave
+Chadwick Pl
+E 30th Ave
+Gaston Rd
+Gloucester St
+Mcroberts Ave
+Sophia St
+Brimorton Dr
+Brook St
+Cunard St
+E 34th Ave
+Belmont Ave
+Frederick Ave
+Huntingwood Dr
+Livingston Rd
+London St
+Dean Park Rd
+Killarney St
+Ling Rd
+Princess Margaret Blvd
+Grace St
+Westmount Ave
+Brownlow Ave
+Spring St
+W 30th Ave
+Duckworth St
+Scotia St
+Canada St
+E Front St
+W Front St
+Elgin St
+Smith Ave
+Teesdale Pl
+Woolner Ave
+Lakefront Rd
+Mortimer Ave
+Murray Ave
+W 48th Ave
+Shallmar Blvd
+Anderson Ave
+Elm Ave
+Sammon Ave
+Tapscott Rd
+Victor St
+Browns Line
+Quailridge Rd
+E Adelaide St
+E King Edward Ave
+Maisonnette
+Mclean St
+Oakdale Rd
+Arklow Dr
+Arlington Ave
+Lawrence St
+Rothesay Ave
+Bartlett Dr
+E 35th Ave
+Wallace St
+Centre
+Dunfield Ave
+Prince Arthur Ave
+Rogers Rd
+Howard St
+Nigadoo
+Novalea Dr
+Pleasant St
+Jones Ave
+Durie St
+Germain St
+Mount Edward Rd
+Eastern Ave
+Godstone Rd
+Harrison Dr
+Micmac Blvd
+Middle
+Montrose Ave
+Park Ave
+Westminster Ave
+Bertrand
+Buchanan Blvd
+Christie St
+Dudley Ave
+Greene Ave
+Hillsborough
+Gowan Ave
+Greenwood Dr
+Lumsden Ave
+Matheson Ave
+Walker Ave
+Whitney Ave
+Willowridge Rd
+Kennedy Dr
+Church Ave
+Milverton Blvd
+Mowat Ave
+W 63rd Ave
+E Dundas
+Lombard Ave
+Montrose St
+Annette St
+Smithfield Ave
+Gilbert Ave
+Greencrest Crct
+St Sauveur
+E Boulevard St Pierre
+Hawthorne St
+Le Goulet
+Nugget Ave
+Park Dr
+Cordova St
+Dunn Ave
+Harvie Ave
+Havelock St
+Lakewood Dr
+W 64th Ave
+Wardlaw Ave
+Commercial St
+Esterbrooke Ave
+Graham Ave
+Montgomery Ave
+W 31st Ave
+Mccaul St
+Moncton Ave
+Bedford Rd
+Fulton Ave
+Pasadena Csnt
+Spencer Ave
+W 62nd Ave
+Woodward Ave
+Antrim Csnt
+Country Rd
+Tobin St
+Willowdale Ave
+La Have
+Ness Ave
+Partridge Ave
+Royal York Rd
+Vimy Ave
+W 46th Ave
+Eel River Crossing
+Fenwick St
+Hillside Dr
+Robinson St
+Sutherland Dr
+W 59th Ave
+Guildwood Pkwy
+Jubilee Ave
+Lake Prmd
+Margueretta St
+N Bellamy
+San Romano Way
+Huntley St
+Kenmount Rd
+Lake Rd
+Prior St
+Roseberry St
+Chaleur
+Concorde Pl
+Laburnum St
+Fisherville Rd
+Dundalk Dr
+Millidge Ave
+Bruce St
+Rouge Rd
+Scarborough Rd
+Cabot St
+Carluke Csnt
+Carpathia Rd
+Vaughan St
+W Harbison Ave
+Vimy Rd
+Harlington Csnt
+Jackes Ave
+Lorette Ave
+Ridgevalley Rd
+Symington Ave
+Churchill Dr
+Eva Rd
+King Ave
+Melville St
+Hemlock St
+Madison Ave
+Queen's Dr
+Baldwin St
+Hillside Ave
+Templeton Ave
+Toryork Dr
+W Martin Ave
+Bennett Dr
+Churchill Ave
+Allan St
+Bauline Line
+E Main
+Woburn Ave
+Denman St
+Dorchester St
+East St
+Kennedy Ave
+Poplar Ave
+Richibucto Vlg
+Sydney St
+Indian Grv
+Kendleton Dr
+Sackville St
+Forest Lane Way
+Keenleyside St
+Knightsridge Dr
+St Antoine
+Arnold Ave
+Barrington Ave
+Crichton Ave
+Birmingham St
+Fairlawn Ave
+Humber Rd
+St George
+W Cordova St
+Blackthorn Ave
+Collins Grv
+E Dundas St
+Ilsley Ave
+Lonsdale Rd
+Martha Eaton Way
+Quingate Pl
+St Francois
+Terra Nova Rd
+Fairlane Ave
+St Mary's Rd
+W Wellington St
+Akerley Blvd
+Bergamot Ave
+Frecker Dr
+Garden Dr
+Goulding St
+St Leolin
+4th St
+Highfield St
+Lincoln Rd
+3rd St
+Champlain Csnt
+Chebucto Rd
+Connolly St
+Drake St
+E Richmond St
+Erin St
+Prince William St
+Rathburn Rd
+Stephens St
+Cornhill St
+Greenway Csnt
+Gulliver Rd
+Hall Rd
+Lawton Blvd
+Macpherson Ave
+Marion St
+Armstrong Ave
+Arthur St
+Dunrobin Ave
+Glenforest Dr
+Mumford Rd
+Old Sackville Rd
+Roberta Ave
+6th St
+Acadia Ave
+Earles St
+Fitzroy St
+Hartford Ave
+Shaughnessy Blvd
+Sumach St
+Amirault St
+Brookdale Csnt
+Hillcrest Ave
+Peter St
+Sackville
+Wynford Dr
+Cottage Rd
+Prince
+Van Horne Ave
+St Clare Ave
+Lee Ave
+River St
+W Queen
+Donald Ave
+Galaxy Blvd
+Mccalman Ave
+Rhodes Ave

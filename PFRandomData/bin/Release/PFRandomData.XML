@@ -1,0 +1,2148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PFRandomData</name>
+    </assembly>
+    <members>
+        <member name="T:PFRandomData.RandomWord">
+            <summary>
+            Class for the generation of random words.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomWord.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomWord.#ctor(PFRandomData.enWordType)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="wordType">Type of word to generate with this instance (e.g. noun, verb, adjective, etc.).</param>
+        </member>
+        <member name="M:PFRandomData.RandomWord.#ctor(PFRandomData.enWordType,System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="wordType">Type of word to generate with this instance (e.g. noun, verb, adjective, etc.).</param>
+            <param name="customWordsFile">Full path to the file containg the word values.</param>
+        </member>
+        <member name="M:PFRandomData.RandomWord.LoadWordsFromFile(PFRandomData.enWordType,System.String)">
+            <summary>
+            Method to load a set of custom words to the current word type represented by this instance.
+            </summary>
+            <param name="wordType">Type of word to generate with this instance (e.g. noun, verb, adjective, etc.).</param>
+            <param name="filename">Full path to the file containg the word values.</param>
+            <remarks>File needs to be in text format with one word per line in the file.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomWord.LoadWordsFromFile(PFRandomData.enWordType,System.String,System.Text.Encoding)">
+            <summary>
+            Method to load a set of custom words to the current word type represented by this instance.
+            </summary>
+            <param name="wordType">Type of word to generate with this instance (e.g. noun, verb, adjective, etc.).</param>
+            <param name="filename">Full path to the file containg the word values.</param>
+            <param name="textEncoding">Supply a System.Text.Encoding enum value if .NET file routines have trouble reading your files. This will often be needed when incoming data has accents on individual letters.</param>
+            <remarks>File needs to be in text format with one word per line in the file.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomWord.GetWord">
+            <summary>
+            Routine to generate a random word.
+            </summary>
+            <returns>String containing the generated word.</returns>
+        </member>
+        <member name="P:PFRandomData.RandomWord.WordType">
+            <summary>
+            WordType Property.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.RandomSingleCharacterRepeated">
+            <summary>
+            Class for producing repeated random characters. (For example, a line consisting of nothing but the letter A repeated x number of times.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringAN(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (a-z, A-Z, 0-9)
+            </summary>
+            <param name="size">Number of characters in random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringANUC(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (A-Z, 0-9)
+            </summary>
+            <param name="size">Number of characters in random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringANLC(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (a-z, 0-9)
+            </summary>
+            <param name="size">Number of characters in random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringANX(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (a-z, A-Z, 0-9) or random punctuation marks from among the following: !   @   #   $   %   ^  &amp;  *   (   )   _   +   :   ?   ;  &gt; &lt;
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringAL(System.Int32)">
+            <summary>
+            Generates upper and lower case letters random string (a-z, A-Z).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringLC(System.Int32)">
+            <summary>
+            Generates alpha random string of lower case letters (a-z).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringUC(System.Int32)">
+            <summary>
+            Generates alpha random string of Upper case letters (A-Z).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringDEC(System.Int32)">
+            <summary>
+            Generates alpha random string of numeric characters (0-9).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSingleCharacterRepeated.GetStringHEX(System.Int32)">
+            <summary>
+            Generates alpha random string of hexadecimal numeric characters (0-9, A-F).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="T:PFRandomData.RandomName">
+            <summary>
+            Contains routines to generate random person and b usiness names.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomName.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+            <remarks>Defaults to U.S. names if no location specified.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomName.#ctor(PFRandomData.enNameLocation)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="nameLocation">Enum that specifies the location (country) for which name is to be generated.</param>
+            <remarks>Formats names according to the nameLocation specified.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomName.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="firstNamesFemaleFile">Path to file containing list of female first names. Supply empty string or null value if you do not intend to generate female first names with this instance.</param>
+            <param name="firstNamesMaleFile">Path to file containing list of male first names. Supply empty string or null value if you do not intend to generate male first names with this instance.</param>
+            <param name="lastNamesFile">Path to file containing list of last names. Supply empty string or null value if you do not intend to generate last names with this instance.</param>
+            <remarks>Generates random names based on the names stored in the supplied files. If no file is supplied, then empty string will be returned by the Get random name routines.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomName.#ctor(System.String,System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="firstNamesFemaleFile">Path to file containing list of female first names. Supply empty string or null value if you do not intend to generate female first names with this instance.</param>
+            <param name="firstNamesMaleFile">Path to file containing list of male first names. Supply empty string or null value if you do not intend to generate male first names with this instance.</param>
+            <param name="lastNamesFile">Path to file containing list of last names. Supply empty string or null value if you do not intend to generate last names with this instance.</param>
+            <param name="textEncoding">Supply a System.Text.Encoding enum value if .NET file routines have trouble reading your files. This will often be needed when incoming data has accents on individual letters.</param>
+            <remarks>Generates random names based on the names stored in the supplied files. If no file is supplied, then empty string will be returned by the Get random name routines.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomName.GetFirstNameFemale">
+            <summary>
+            Gets random female name using name location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomName.GetFirstNameMale">
+            <summary>
+            Gets random male name using name location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomName.GetLastName">
+            <summary>
+            Gets random last name using name location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomName.GetFullNameFemale">
+            <summary>
+            Gets random female name and random last name using name location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomName.GetFullNameMale">
+            <summary>
+            Gets random male name and random last name using name location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomName.GetBusinessName">
+            <summary>
+            Creates a random name that resembles a business name.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomName.GetCustomName">
+            <summary>
+            Retrieves name from custom names file supplied by caller.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="T:PFRandomData.RandomString">
+            <summary>
+            Class has methods to generate random strings.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomString.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetString(System.Int32)">
+            <summary>
+            Generates random string using characters between ascii 32 and 127 (\ excluded).
+            </summary>
+            <param name="size">Number of characters in random string.</param>
+            <returns>String of random characters.</returns>
+            <remarks>Backslash is excluded to make sure the resulting string can be stored correctly in a string variable.</remarks>
+            <example>
+            <code>
+            int stringLength=100;
+            string retval = string.Empty;
+            RandomString rs = new RandomString();
+            retval = rs.GetString(stringLength);
+            </code>
+            </example>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringAN(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (a-z, A-Z, 0-9)
+            </summary>
+            <param name="size">Number of characters in random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringANUC(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (A-Z, 0-9)
+            </summary>
+            <param name="size">Number of characters in random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringANLC(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (a-z, 0-9)
+            </summary>
+            <param name="size">Number of characters in random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringANX(System.Int32)">
+            <summary>
+            Generates alpha numeric random string (a-z, A-Z, 0-9) or random punctuation marks from among the following: !   @   #   $   %   ^  &amp;  *   (   )   _   +   :   ?   ;  &gt; &lt;
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringAL(System.Int32)">
+            <summary>
+            Generates upper and lower case letters random string (a-z, A-Z).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringLC(System.Int32)">
+            <summary>
+            Generates alpha random string of lower case letters (a-z).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringUC(System.Int32)">
+            <summary>
+            Generates alpha random string of Upper case letters (A-Z).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringDEC(System.Int32)">
+            <summary>
+            Generates alpha random string of numeric characters (0-9).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringHEX(System.Int32)">
+            <summary>
+            Generates alpha random string of hexadecimal numeric characters (0-9, A-F).
+            </summary>
+            <param name="size">Number of characters in random string</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringIncludingBackslashAndDoubleQuotes(System.Int32)">
+            <summary>
+            Retrieves a random string that can include backslash (\) and double-quote characters ("). 
+            Ascii characters between decimal 32 and 127 can be included in the return string.
+            </summary>
+            <param name="size">Size of random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetStringNoSpaces(System.Int32)">
+            <summary>
+            Retrieves string of random ascii characters from decimal 33 to 127.
+            Space, backslash and double-quote characters are excluded from inclusion in random string output.
+            </summary>
+            <param name="size">Size of the random string.</param>
+            <returns>String of random characters.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetRandomSyllablesLC(System.Int32)">
+            <summary>
+            Generates random syllables in lower case.
+            </summary>
+            <param name="size">Number of syllables to generate.</param>
+            <returns>String containing the random syllables.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetRandomSyllablesUC(System.Int32)">
+            <summary>
+            Generates random syllables in upper case.
+            </summary>
+            <param name="size">Number of syllables to generate.</param>
+            <returns>String containing the random syllables.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomString.GetRandomSyllablesUCLC(System.Int32)">
+            <summary>
+            Generates random syllables with first letter of first syllable in upper case and all othrs in lower case.
+            </summary>
+            <param name="size">Number of syllables to generate.</param>
+            <returns>String containing the random syllables.</returns>
+        </member>
+        <member name="T:PFRandomData.RandomSentence">
+            <summary>
+            Contains routines for generating sentences containing random words organized in correct syntax.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomSentence.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomSentence.GenerateSentence">
+            <summary>
+            Produces a sentence using random words arranged in a syntactical order.
+            </summary>
+            <returns>String containing random sentence.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomSentence.GenerateSentences(System.Int32)">
+            <summary>
+            Routine to generate one or more sentences containing random words.
+            </summary>
+            <param name="numSentences">Number of sentences to generate.</param>
+            <returns>String containing generated sentences.</returns>
+        </member>
+        <member name="T:PFRandomData.NameDataArrays">
+            <summary>
+            Class contains arrays of first and last names for various countries.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.NameDataArrays.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Arabia_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Arabia_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Arabia_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Argentina_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Argentina_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Argentina_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Brazil_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Brazil_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Brazil_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Canada_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Canada_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Canada_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.China_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.China_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.China_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.England_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.England_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.England_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.France_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.France_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.France_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Germany_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Germany_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Germany_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Ireland_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Ireland_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Ireland_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Israel_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Israel_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Israel_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Italy_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Italy_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Italy_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Japan_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Japan_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Japan_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Mexico_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Mexico_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Mexico_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Portugal_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Portugal_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Portugal_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Quebec_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Quebec_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Quebec_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Russia_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Russia_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Russia_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Scotland_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Scotland_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Scotland_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Spain_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Spain_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Spain_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.US_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.US_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.US_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Custom_FirstNamesFemale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Custom_FirstNamesMale">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Custom_LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.BusinessNamesPrefix">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.BusinessNamesSuffix">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Business_Syllable1">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.NameDataArrays.Business_Syllable2">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.RandomDocument">
+            <summary>
+            Class to generate documents consisting of random sentences, paragraphs and words.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateBook(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Routine to generate sentences containing random words organized into chapters and books.
+            </summary>
+            <param name="bookTitle">Title text to be inserted at the beginning of the book's text.</param>
+            <param name="numChapters">Total number of chapters to produce for the book.</param>
+            <param name="minNumParagraphsPerChapter">Minimum number of paragraphs to generate for a chapter.</param>
+            <param name="maxNumParagraphsPerChapter">Maximum number of paragraphs to generate for a chapter.</param>
+            <param name="minNumSentencesPerParagraph">Minimum number of sentences in a paragraph.</param>
+            <param name="maxNumSentencesPerParagraph">Maximum number of sentences in a paragraph.</param>
+            <returns>String containing random text in chapter and book format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateBook(System.String,System.Int32,System.String[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Routine to generate sentences containing random words organized into chapters and books.
+            </summary>
+            <param name="bookTitle">Title text to be inserted at the beginning of the book's text.</param>
+            <param name="numChapters">Total number of chapters to produce for the book.</param>
+            <param name="pChapterTitles">Array of strings containing titles for chapters. Omit or set to null to allow generation of default chapter titles.</param>
+            <param name="minNumParagraphsPerChapter">Minimum number of paragraphs to generate for a chapter.</param>
+            <param name="maxNumParagraphsPerChapter">Maximum number of paragraphs to generate for a chapter.</param>
+            <param name="minNumSentencesPerParagraph">Minimum number of sentences in a paragraph.</param>
+            <param name="maxNumSentencesPerParagraph">Maximum number of sentences in a paragraph.</param>
+            <returns>String containing random text in chapter and book format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateBook(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Routine to generate sentences containing random words organized into chapters and books.
+            </summary>
+            <param name="bookTitle">Title text to be inserted at the beginning of the book's text.</param>
+            <param name="appendTheEndToBook">Phrase to be appended to the book text.</param>
+            <param name="numChapters">Total number of chapters to produce for the book.</param>
+            <param name="minNumParagraphsPerChapter">Minimum number of paragraphs to generate for a chapter.</param>
+            <param name="maxNumParagraphsPerChapter">Maximum number of paragraphs to generate for a chapter.</param>
+            <param name="minNumSentencesPerParagraph">Minimum number of sentences in a paragraph.</param>
+            <param name="maxNumSentencesPerParagraph">Maximum number of sentences in a paragraph.</param>
+            <returns>String containing random text in chapter and book format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateBook(System.String,System.String,System.Int32,System.String[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Routine to generate sentences containing random words organized into chapters and books.
+            </summary>
+            <param name="bookTitle">Title text to be inserted at the beginning of the book's text.</param>
+            <param name="appendTheEndToBook">Phrase to be appended to the book text.</param>
+            <param name="numChapters">Total number of chapters to produce for the book.</param>
+            <param name="pChapterTitles">Array of strings containing titles for chapters. Omit or set to null to allow generation of default chapter titles.</param>
+            <param name="minNumParagraphsPerChapter">Minimum number of paragraphs to generate for a chapter.</param>
+            <param name="maxNumParagraphsPerChapter">Maximum number of paragraphs to generate for a chapter.</param>
+            <param name="minNumSentencesPerParagraph">Minimum number of sentences in a paragraph.</param>
+            <param name="maxNumSentencesPerParagraph">Maximum number of sentences in a paragraph.</param>
+            <returns>String containing random text in chapter and book format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateChapter(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Routine to generate one or more paragraphs organized as a book chapter and containing random words in random sentences.
+            </summary>
+            <param name="numParagraphs">Number of paragraphs to produce.</param>
+            <param name="minNumSentencesPerParagraph">Minimum number of sentences in a paragraph.</param>
+            <param name="maxNumSentencesPerParagraph">Maximum number of sentences in a paragraph.</param>
+            <returns>String containing random text organized into paragraphs and random sentences.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateChapter(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Routine to generate one or more paragraphs organized as a book chapter and containing random words in random sentences.
+            </summary>
+            <param name="chapterTitle">Title text to be placed at beginning of a chapter.</param>
+            <param name="numParagraphs">Number of paragraphs to produce.</param>
+            <param name="minNumSentencesPerParagraph">Minimum number of sentences in a paragraph.</param>
+            <param name="maxNumSentencesPerParagraph">Maximum number of sentences in a paragraph.</param>
+            <returns>String containing random text organized into paragraphs and random sentences.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateDocument(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Routine to generate one or more paragraphs containing random words in random sentences.
+            </summary>
+            <param name="numParagraphs">Number of paragraphs to produce.</param>
+            <param name="minNumSentencesPerParagraph">Minimum number of sentences in a paragraph.</param>
+            <param name="maxNumSentencesPerParagraph">Maximum number of sentences in a paragraph.</param>
+            <param name="documentSubject">Text to be displayed in subject line of the document. Omit this parameter to exclude subject line from the document.</param>
+            <returns>String containing the random paragraphs.</returns>
+            <remarks>Use the minNumSentencesPerParagraph and maxNumSentencesPerParagraph to produce a document in which paragraphs have varying numbers of sentences as opposed to having same number of sentences in each paragraph.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomDocument.GenerateParagraph(System.Int32)">
+            <summary>
+            Generates one or more sentences containing random words organized as sentences in a paragraph.
+            </summary>
+            <param name="numSentences">Number of sentences to generate.</param>
+            <returns>String containing paragraph(s) text.</returns>
+        </member>
+        <member name="T:PFRandomData.RandomBoolean">
+            <summary>
+            Class contains methods for generation random boolean values in various formats.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomBoolean.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+            <remarks>Random values will have an equal chance of being true or false.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomBoolean.#ctor(System.Double,System.Double)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="trueValuesCount">Specify a number that will be used to calculate the chances that random boolean will be a true value.</param>
+            <param name="falseValuesCount">Specify a number that will be used to calculate the chances that random boolean will be a false value.</param>
+            <remarks> If trueValuesCount is .67 and falseValuesCount is .33, then the chances of getting a random true value are 67 percent.
+            if percentTrueValue is 300 and falseValuesCount is 100, then the chances of getting a random true value are 75 percent. (300/400 = .75, 100/400 = .25</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomBoolean.GetRandomBoolean">
+            <summary>
+            Produces a random boolean value.
+            </summary>
+            <returns>Random boolean value.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomBoolean.GetRandomInt(System.Int32,System.Int32)">
+            <summary>
+            Generate boolean represented by an integer for the true and false values (e.g. 1 or 0, -1 or 0).
+            </summary>
+            <param name="trueVal">Number to assign to true values.</param>
+            <param name="falseVal">Number to assign to false values.</param>
+            <returns>Integer representing a true/false value in integer format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomBoolean.GetRandomString(System.String,System.String)">
+            <summary>
+            Generate boolean represented by a string for the true and false value (e.g. "true" or "false", "yes" or "no").
+            </summary>
+            <param name="trueVal">String to assign to true values.</param>
+            <param name="falseVal">String to assign to false values.</param>
+            <returns>String representing a true/false value in string format.</returns>
+        </member>
+        <member name="P:PFRandomData.RandomBoolean.PercentTrueValues">
+            <summary>
+            PercentTrueValues Property.
+            </summary>
+        </member>
+        <member name="P:PFRandomData.RandomBoolean.PercentFalseValues">
+            <summary>
+            PercentFalseValues Property.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.LocationDataArrays">
+             <summary>
+            Class contains arrays of city, street and state names for U.S., Canada and Mexico.
+             </summary>
+        </member>
+        <member name="M:PFRandomData.LocationDataArrays.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Canada_CityNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Canada_ProvinceCodes">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Canada_ProvinceNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Canada_StreetNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Mexico_CityNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Mexico_NeighborhoodNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Mexico_StateCodes">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Mexico_StateNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Mexico_StreetNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Quebec_CityNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.Quebec_StreetNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.US_CityNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.US_StateCodes">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.US_StateNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.LocationDataArrays.US_StreetNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.RandomValues">
+            <summary>
+            Contains routines for generating various types of random data values.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomValues.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomValues.#ctor(System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="customRandomValuesFile">Path to file containing random values.</param>
+            <remarks>File needs to be a text file with one random value stored on each line in the file.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomValues.#ctor(System.String,System.Text.Encoding)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="customRandomValuesFile">Path to file containing random values.</param>
+            <param name="textEncoding">Supply a System.Text.Encoding enum value if .NET file routines have trouble reading your file. This will often be needed when incoming data has accents on individual letters.</param>
+            <remarks>File needs to be a text file with one random value stored on each line in the file.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetDefaultNationalId(PFRandomData.RandomValues.enNationalIdCountry)">
+            <summary>
+            Routine for generating the default national id of all zeros.
+            </summary>
+            <param name="country">Specifies the country for which the ID is to be generated.</param>
+            <returns>Always returns string containing an all zeros national id.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetNationalId(PFRandomData.RandomValues.enNationalIdCountry)">
+            <summary>
+            Routine to generate a random (non-valid) national id.
+            </summary>
+            <param name="country">Country for which the random id will be formatted.</param>
+            <returns>String containing the random national id.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetNationalIdUS">
+            <summary>
+            Routine to generate a random (non-valid) SSN.
+            </summary>
+            <returns>String containing the random SSN.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetNationalIdCAN">
+            <summary>
+            Routine to generate a random (non-valid) national id.
+            </summary>
+            <returns>String containing the random national id.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetNationalIdMEX">
+            <summary>
+            Routine to generate a random (non-valid) national id.
+            </summary>
+            <returns>String containing the random SSN.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetTelephoneNumber">
+            <summary>
+            Routine to generate a random and invalid telephone number.
+            </summary>
+            <returns>String containing random telephone number.</returns>
+            <remarks>Country code of 1 and area code of 000 will be specified in the resulting random telephone number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetTelephoneNumber(System.String)">
+            <summary>
+            Routine to generate a random and invalid telephone number.
+            </summary>
+            <param name="areaCode">Specify the area code for the telephone number.</param>
+            <returns>String containing random telephone number.</returns>
+            <remarks>Country code of 1 will be specified in the resulting random telephone number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetTelephoneNumber(System.String,System.String)">
+            <summary>
+            Routine to generate a random and invalid telephone number.
+            </summary>
+            <param name="countryCode">Specify the country code for the telephone number.</param>
+            <param name="areaCode">Specify the area code for the telephone number.</param>
+            <returns>String containing random telephone number.</returns>
+            <remarks>Leave countryCode and/or areaCode blank to omit those portions of the telephone number from the random result.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetEmailAddress">
+            <summary>
+            Routine to generate a random email address.
+            </summary>
+            <returns>String containing random email address.</returns>
+            <remarks>All email addresses are for the example domain.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetEmailAddress(System.String)">
+            <summary>
+            Routine to generate a random email address.
+            </summary>
+            <param name="topLevelDomain">Top level domain to use for this address (e.g. com, net, org, edu).</param>
+            <returns>String containing random email address.</returns>
+            <remarks>All email addresses are for the example domain.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomValues.GetRandomValue">
+            <summary>
+            Retrieves random value from set of random values loaded in constructor for this class.
+            </summary>
+            <returns>String with random value. Empty string is returned if no custom random value file was specified when this instance was constructed.</returns>
+        </member>
+        <member name="T:PFRandomData.RandomValues.enNationalIdCountry">
+            <summary>
+            Enumerates the countries for which national ids can be generated.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.RandomNumber">
+            <summary>
+            Generates random numeric values for various .NET numeric types.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.#ctor">
+            <summary>
+            Constructor for the class. Does nothing.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomInt(System.Int32,System.Int32)">
+            <summary>
+            Generates an int32 number in the specified range.
+            </summary>
+            <param name="min">Output will be equal to or greater than this number.</param>
+            <param name="max">Output will be less than this number.</param>
+            <returns>
+            A 32-bit signed integer greater than or equal to min and less than or equal to max
+            </returns>
+            <remarks>Uses Next method of the .NET Framework Random class.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Int32,System.Int32)">
+            <summary>
+            Generates random integer with a value within min to max range.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>Returns random int32.</returns>
+            <remarks>Method first generates a random double which it converts to an integer value.</remarks>
+            <example>
+            <code>
+            </code>
+            </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Double,System.Double)">
+            <summary>
+            Generates random double.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>Double</returns>
+            <example>
+            <code>
+            </code>
+            </example>
+            
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Single,System.Single)">
+            <summary>
+            Generates random float.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>float</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.UInt32,System.UInt32)">
+            <summary>
+            Generates random unsigned integer.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>uint</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Int64,System.Int64)">
+            <summary>
+            Generates random long integer.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>long</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.UInt64,System.UInt64)">
+            <summary>
+            Generates random unsigned long integer.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>ulong</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Int16,System.Int16)">
+            <summary>
+            Generates random short integer.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>short</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.UInt16,System.UInt16)">
+            <summary>
+            Generates random unsigned short integer.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>ushort</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Decimal,System.Decimal)">
+            <summary>
+            Generates random decimal number.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>decimal</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Byte,System.Byte)">
+            <summary>
+            Generates random byte.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>byte</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.SByte,System.SByte)">
+            <summary>
+            Generates random signed byte.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <returns>sbyte</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomInt(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Method generates an array of random int values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>
+            An array of 32-bit signed integers, each greater than or equal to min and less than or equal to max.
+            </returns>
+            <remarks>Uses Next method of the .NET Framework Random class.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Method generates an array of random integer values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>int[] array</returns>
+            <remarks>Method first generates a random double which it converts to an integer value.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Double,System.Double,System.Int32)">
+            <summary>
+            Method generates an array of random double values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>double[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Single,System.Single,System.Int32)">
+            <summary>
+            Method generates an array of random float values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>float[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.UInt32,System.UInt32,System.Int32)">
+            <summary>
+            Method generates an array of random unsigned integer values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>uint[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Int64,System.Int64,System.Int32)">
+            <summary>
+            Method generates an array of random long integer values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>long[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.UInt64,System.UInt64,System.Int32)">
+            <summary>
+            Method generates an array of random unsigned long integer values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>ulong[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Int16,System.Int16,System.Int32)">
+            <summary>
+            Method generates an array of random short integer values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>short[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.UInt16,System.UInt16,System.Int32)">
+            <summary>
+            Method generates an array of random unsigned short integer values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>ushort[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Decimal,System.Decimal,System.Int32)">
+            <summary>
+            Method generates an array of random unsigned decimal values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>decimal[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.Byte,System.Byte,System.Int32)">
+            <summary>
+            Method generates an array of random byte values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>byte[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.GenerateRandomNumber(System.SByte,System.SByte,System.Int32)">
+            <summary>
+            Method generates an array of random signed byte values.
+            </summary>
+            <param name="min">Min value to generate.</param>
+            <param name="max">Max value to generate.</param>
+            <param name="arraySize">Number of random numbers to generate.</param>
+            <returns>sbyte[] array</returns>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetInt(System.Int32,System.Double,System.Double)">
+             <summary>
+             Modifies an int32 number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A 32-bit signed integer greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Int32,System.Double,System.Double)">
+             <summary>
+             Modifies an int32 number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A 32-bit signed integer greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.UInt32,System.Double,System.Double)">
+             <summary>
+             Modifies a UInt32 number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A 32-bit unsigned integer greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Int64,System.Double,System.Double)">
+             <summary>
+             Modifies a long number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A 64-bit signed integer greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.UInt64,System.Double,System.Double)">
+             <summary>
+             Modifies an unsigned long number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A 64-bit unsigned integer greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Int16,System.Double,System.Double)">
+             <summary>
+             Modifies a short number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A 16-bit signed integer greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.UInt16,System.Double,System.Double)">
+             <summary>
+             Modifies an unsigned short number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A 16-bit unsigned integer greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.SByte,System.Double,System.Double)">
+             <summary>
+             Modifies a signed byte by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An 8-bit signed byte greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Byte,System.Double,System.Double)">
+             <summary>
+             Modifies a byte by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An 8-bit unsigned byte greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number..</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Double,System.Double,System.Double)">
+             <summary>
+             Modifies a double number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A double number greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+             
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Single,System.Double,System.Double)">
+             <summary>
+             Modifies a float number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A float number greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+             
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Decimal,System.Double,System.Double)">
+             <summary>
+             Modifies a decimal number by applying an offset that is within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numToModify">Number which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>A decimal number greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+             <example>
+             <code>
+             </code>
+             </example>
+             
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetInt(System.Int32[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of int32 numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 32-bit signed integers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Int32[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of int32 numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 32-bit signed integers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.UInt32[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of unsigned int32 numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 32-bit signed integers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Int64[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of long numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 64-bit signed integers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.UInt64[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of unsigned long numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 64-bit unsigned integers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Int16[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of short numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 16-bit signed integers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.UInt16[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of unsigned short numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 16-bit unsigned integers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.SByte[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of signed bytes by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 8-bit signed bytes greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Byte[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of unsigned bytes by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of 8-bit unsigned bytes greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Double[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of double numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of double numbers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Single[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of float numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of double numbers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomNumber.OffsetNumber(System.Decimal[],System.Double,System.Double)">
+             <summary>
+             Modifies an array of decimal numbers by applying offsets that are within a minimum percent and maximum percent of the original number.
+             </summary>
+            <param name="numsToModify">Number array which will be randomized by having an offset applied to it.</param>
+             <param name="minPercent">Minimum offset to apply to the original number. Specify the percentage in decimal format. For example, if min is 15 percent then this parameter should have a value of .15.</param>
+             <param name="maxPercent">Maximum offset to apply to the original number. Specify the percentage in decimal format. For example, if max is 125 percent then this parameter should have a value of 1.25.</param>
+             <returns>An array of double numbers greater than or equal to the numToModify + (numToModify * minPercent) and less than or equal to the numToModify + (numToModify * maxPercent).</returns>
+             <remarks>Specify negative percentages for minPercent and/or maxPercent to define an offset that will decrease the original number.
+             Specify positive percentages for minPercent and/or maxPercent to define an offset that will increase the original number.</remarks>
+        </member>
+        <member name="T:PFRandomData.enNameLocation">
+            <summary>
+            Enumeration used to specify country for which name is to be generated.
+            The enCustom enumeration is automatically assigned when loading a file of custom names.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enLocation">
+            <summary>
+            Enumeration used to specify country for which location is to be generated.
+            Location names are for city, street, state/province.
+            The enCustom enumeration is automatically assigned when loading a file of custom location names.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enLocationNameType">
+            <summary>
+            Enumeration used to specify what type of location is being referred to by a name.
+            The enCustom enumerated value is used when custom names refer to a non-standard location type.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enRandomNumberType">
+            <summary>
+            Enumeration used to specify type of random number to generate.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enRandomOffsetType">
+            <summary>
+            Enumeration used to specify the time span to offset a date/time in order to produce a random date.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enBooleanOutputType">
+            <summary>
+            Enumeration that specifies data type to use for random boolean values.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enDwDateTimeFormat">
+            <summary>
+            Enumerates the output formats for data warehouse style integer date and time values
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enRandomStringType">
+            <summary>
+            Enumeration used specify the type and format of a random string.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enRandomSyllableStringType">
+            <summary>
+            Enumeration used to specify the upper and lower case formatting for random syllables.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enWordType">
+            <summary>
+            Dscribes types of words and parts of words that can be generated.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.enSentenceSyntaxCategory">
+            <summary>
+            Enumerates the sentence parts that can be constructed by the random sentence routines.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.RandomDateTime">
+            <summary>
+            Generates random date/time values.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDateTime(System.DateTime,System.DateTime,System.TimeSpan,System.TimeSpan)">
+            <summary>
+            Generates random date and time based on caller specified range of date/times.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <returns>Random DateTime value.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDateTimeAsInteger(System.DateTime,System.DateTime,System.TimeSpan,System.TimeSpan)">
+            <summary>
+            Generates random date and time formatted as an integer and based on caller specified range of date/times.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <returns>Random dates and times as a 64-bit integer array.</returns>
+            <remarks>DateTimes in integer format are frequently used in data warehousing databases. Output value is in yyyyMMddHHmmss format.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDate(System.DateTime,System.DateTime)">
+            <summary>
+            Generates random date  on caller specified range of dates.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <returns>DateTime value containing random Date. Time of "00:00:00" is assigned to each date.</returns> 
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDateAsInteger(System.DateTime,System.DateTime)">
+            <summary>
+            Generates random date formatted as an integer and based on caller specified range of dates.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <returns>Random date as a 32-bit integer value..</returns>
+            <remarks>Dates in integer format are frequently used in data warehousing databases. Output value is in yyyyMMdd format.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomTime(System.TimeSpan,System.TimeSpan)">
+            <summary>
+            Generates random  time based on caller specified range of times.
+            </summary>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <returns>Random TimeSpan value. Time of day in hours/minutes/seconds format returned.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomTimeAsInteger(System.TimeSpan,System.TimeSpan)">
+            <summary>
+            Generates random time formatted as an integer and based on caller specified range of times.
+            </summary>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <returns>Random time as a 32-bit integer.</returns>
+            <remarks>Times in integer format can be useful in data warehousing databases. Output value is in HHmmss format.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDateTime(System.DateTime,System.DateTime,System.TimeSpan,System.TimeSpan,System.Int32)">
+            <summary>
+            Generates array of random date and time values based on caller specified range of date/times.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <param name="arraySize">Number of DateTime values to generate.</param>
+            <returns>Array of random DateTime values.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDateTimeAsInteger(System.DateTime,System.DateTime,System.TimeSpan,System.TimeSpan,System.Int32)">
+            <summary>
+            Generates random dates and times formatted as an integer array and based on caller specified range of date/times.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <param name="arraySize">Number of DateTime values to generate.</param>
+            <returns>Random date/times as a 64-bit integer array.</returns>
+            <remarks>Dates in integer format are frequently used in data warehousing databases. Output values are in yyyyMMddHHmmss format.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDate(System.DateTime,System.DateTime,System.Int32)">
+            <summary>
+            Generates random date array on caller specified range of dates.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <param name="arraySize">Number of Date values to generate.</param>
+            <returns>Array of DateTime values containing random Date. Time of "00:00:00" is assigned to each date.</returns> 
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomDateAsInteger(System.DateTime,System.DateTime,System.Int32)">
+            <summary>
+            Generates random dates formatted as an integer array and based on caller specified range of dates.
+            </summary>
+            <param name="fromDate">Earliest random date to generate.</param>
+            <param name="toDate">Latest random date to generate.</param>
+            <param name="arraySize">Number of Date values to generate.</param>
+            <returns>Random dates as array of 32-bit integer values..</returns>
+            <remarks>Dates in integer format are frequently used in data warehousing databases. Output values are in yyyyMMdd format.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomTime(System.TimeSpan,System.TimeSpan,System.Int32)">
+            <summary>
+            Generates array of random  times based on caller specified range of times.
+            </summary>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <param name="arraySize">Number of Time values to generate.</param>
+            <returns>Array of random TimeSpan values. Time of day in hours/minutes/seconds format returned.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.GenerateRandomTimeAsInteger(System.TimeSpan,System.TimeSpan,System.Int32)">
+            <summary>
+            Generates random times formatted as an integer array and based on caller specified range of times.
+            </summary>
+            <param name="fromTime">Earliest random time to generate.</param>
+            <param name="toTime">Latest random time to generate.</param>
+            <param name="arraySize">Number of Time values to generate.</param>
+            <returns>Random times as a 32-bit integer array.</returns>
+            <remarks>Times in integer format can be useful in data warehousing databases. Output values are in HHmmss format.</remarks>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDateTime(System.DateTime,PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates a DateTime value that is offset from the caller supplied DateTime by a random interval.
+            </summary>
+            <param name="dateTimeToModify">DateTime value to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>DateTime value that has been offset from the dateTimeToModify by a random duration.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDateTimeAsInteger(System.DateTime,PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates a DateTime value as an integer that is offset from the caller supplied DateTime by a random interval.
+            </summary>
+            <param name="dateTimeToModify">DateTime value to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>DateTime value converted to an integer that has been offset from the dateTimeToModify by a random duration. Output value is in yyyyMMddHHmmss format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDate(System.DateTime,PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates a date value that is offset from the caller supplied DateTime by a random interval.
+            </summary>
+            <param name="dateTimeToModify">DateTime value to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>DateTime value that has been offset from the dateTimeToModify by a random duration. Time is not set in the return value. </returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDateAsInteger(System.DateTime,PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates a date value as an integer that is offset from the caller supplied DateTime by a random interval.
+            </summary>
+            <param name="dateTimeToModify">DateTime value to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>DateTime value converted to an integer that has been offset from the dateTimeToModify by a random duration. Time is not set in the return value. Output value is in yyyyMMdd format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetTime(System.DateTime,PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates a time value that is offset from the time portion of the caller supplied DateTime by a random interval.
+            </summary>
+            <param name="dateTimeToModify">DateTime value to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>Time value that has been offset from the time portion of dateTimeToModify by a random duration. Date is not set in the return value. </returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetTimeAsInteger(System.DateTime,PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates a time value as an integer that is offset from the time portion of the caller supplied DateTime by a random interval.
+            </summary>
+            <param name="dateTimeToModify">DateTime value to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>Time value converted to an integer that has been offset from the time portion of dateTimeToModify by a random duration. Date is not set in the return value. Output value is in HHmmss format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDateTime(System.DateTime[],PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates an array DateTime values that are offset from the caller supplied DateTime by random intervals.
+            </summary>
+            <param name="dateTimesToModify">Array of DateTime values to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>Array of DateTime values that have been offset from the dateTimesToModify by random durations.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDateTimeAsInteger(System.DateTime[],PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates DateTime values as an array of integers that are offset from the caller supplied DateTime by random intervals.
+            </summary>
+            <param name="dateTimesToModify">Array of DateTime values to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>DateTime values converted to a 64-bit integer array that have been offset from the dateTimesToModify by random durationsNC. Output values are in yyyyMMddHHmmss format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDate(System.DateTime[],PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates an array of date values that are offset from the caller supplied DateTime by random intervals.
+            </summary>
+            <param name="dateTimesToModify">Array of date values to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>Array of DateTime values that have been offset from the dateTimesToModify by random durations. Time is not set in the return values. </returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetDateAsInteger(System.DateTime[],PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates an array of date values as a integers that are offset from the caller supplied DateTime by random intervals.
+            </summary>
+            <param name="dateTimesToModify">Array of date values to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>Array of date values converted to a 32-bit integer array. Values have been offset from the dateTimesToModify by random durations. Time is not set in the return values. Output values are in yyyyMMdd format.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetTime(System.DateTime[],PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates an array of time values that are offset from the time portion of the caller supplied DateTime array by random intervals.
+            </summary>
+            <param name="dateTimesToModify">Array of time values to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>Array of time values that have been offset from the time portion of dateTimesToModify by random durations. Date is not set in the return values. </returns>
+        </member>
+        <member name="M:PFRandomData.RandomDateTime.OffsetTimeAsInteger(System.DateTime[],PFRandomData.enRandomOffsetType,System.Int32,System.Int32)">
+            <summary>
+            Generates an array of time values as integers that are offset from the time portion of the caller supplied dateTimesToModify by random intervals.
+            </summary>
+            <param name="dateTimesToModify">Array of time values to modify.</param>
+            <param name="offsetInterval">Specifies offset time interval (e.g. years, months, days, hours, minutes or seconds).</param>
+            <param name="minOffset">Smallest offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <param name="maxOffset">Maximum offset. Specify negative numbers to specify offsets that generate earlier dates.</param>
+            <returns>Array of time values converted to an array of 32-bit integers that have been offset from the time portion of dateTimesToModify by random durations. Date is not set in the return value. Return values are in HHmmss format.</returns>
+        </member>
+        <member name="T:PFRandomData.WordDataArrays">
+            <summary>
+            Contains lists of words and sentence templates used in building random words and sentences.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.WordDataArrays.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.SentenceSyntaxDefs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.SubordinateClauseDefs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.NounPhraseSyntaxDefs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.SubjectSyntaxDefs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.VerbPhraseSyntaxDefs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.ObjectSyntaxDefs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.SentenceTerminatorDefs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.ThirdPersonSingularPronouns">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.AuxiliaryVerbs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.LetterIsVowel">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Adjectives">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Adverbs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Biz_3Con1">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Biz_3Con2">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Biz_Names">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Biz_Prefix">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Biz_Suffix">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Biz_Syl1">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Biz_Syl2">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.CityNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Conjunctions">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.DeterminerPronouns">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Determiners">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.FirstNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Interjections">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Interrogatives">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.LastNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Nouns">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.ObjectPronouns">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Prepositions">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Pronouns">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.StateNames">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.SubjectPronouns">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.SubordinateConjunctions">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Verbs">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="F:PFRandomData.WordDataArrays.Words">
+            <summary>
+            Array of random string values.
+            </summary>
+        </member>
+        <member name="T:PFRandomData.RandomLocation">
+            <summary>
+            Contains routines for generating random location names.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.#ctor(PFRandomData.enLocation)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="loc">Enumeration value for the location to be represented by this instance.</param>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.LoadCustomLocation(System.String,PFRandomData.enLocationNameType)">
+            <summary>
+            Reads custom location names from a file into the array for the enLocationNameType specified.
+            </summary>
+            <param name="customLocationFile">Full path to file containing the custom names.</param>
+            <param name="locNameType">Type of location name contained n the customLocationFile.</param>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.GetCityName">
+            <summary>
+            Gets random city name using location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.GetStateProvinceCode">
+            <summary>
+            Gets random state/province code using location specified for this instance.
+            </summary>
+            <returns>String containing state/province code.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.GetStateProvinceName">
+            <summary>
+            Gets random state/province name using location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.GetStreetName">
+            <summary>
+            Gets random street name using location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomLocation.GetNeighborhoodName">
+            <summary>
+            Gets random neighborhood name using location specified for this instance.
+            </summary>
+            <returns>String containing name.</returns>
+            <remarks>This call will usually only return a value if the location for the class instance is Mexico.</remarks>
+        </member>
+        <member name="T:PFRandomData.RandomBytes">
+            <summary>
+            Class for generating byte arrays containing random characters.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomBytes.#ctor">
+            <summary>
+            Constructor for the class. Does nothing.
+            </summary>
+        </member>
+        <member name="M:PFRandomData.RandomBytes.GenerateRandomBytes(System.Int32)">
+            <summary>
+            Method for generating a byte array containing random values.
+            </summary>
+            <param name="numBytesToGenerate">Number of random bytes to produce.</param>
+            <returns>Byte array.</returns>
+        </member>
+        <member name="M:PFRandomData.RandomBytes.GenerateRandomChars(System.Int32)">
+            <summary>
+            Method for generating a char array containing random values.
+            </summary>
+            <param name="numCharsToGenerate">Number of char values to produce.</param>
+            <returns>Char array.</returns>
+        </member>
+    </members>
+</doc>

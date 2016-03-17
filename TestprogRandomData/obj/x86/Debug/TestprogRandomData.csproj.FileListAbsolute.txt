@@ -1,0 +1,17 @@
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\obj\x86\Debug\TestprogRandomData.MainForm.resources
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\obj\x86\Debug\TestprogRandomData.Properties.Resources.resources
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\pfSettingsOrig.xml
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\TestprogRandomData.exe.config
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\TestprogRandomData.exe
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\TestprogRandomData.pdb
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\PFGlobalObjects.dll
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\PFMessageLogs.dll
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\PFRandomData.dll
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\PFGlobalObjects.pdb
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\PFMessageLogs.pdb
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\bin\Debug\PFRandomData.pdb
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\obj\x86\Debug\TestprogRandomData.exe
+D:\Testcode\pfRandomDataCodeLibrary\TestprogRandomData\obj\x86\Debug\TestprogRandomData.pdb
