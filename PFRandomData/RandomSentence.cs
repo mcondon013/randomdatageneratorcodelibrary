@@ -725,7 +725,7 @@ namespace PFRandomData
                     newVerb = originalVerb;
                     break;
                 default:
-                    if (originalVerb.EndsWith("s") || originalVerb.EndsWith("h"))
+                    if (originalVerb.EndsWith("s") || originalVerb.EndsWith("h") || originalVerb.EndsWith("x"))
                         newVerb = originalVerb + "es";
                     else if (originalVerb.EndsWith("y"))
                     {
